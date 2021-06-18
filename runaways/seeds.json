@@ -1,0 +1,95 @@
+[
+{
+  "model": "runaways.runaway",
+  "pk": 1,
+  "fields": {
+    "brand": "PRADA",
+    "year": "1996",
+    "season": "Spring-Summer",
+    "image": "https://i.pinimg.com/originals/1b/2a/f9/1b2af98dcb5eb69487aa3a1349170b55.jpg",
+    "price": "$ 3000",
+    "description": "Prada's Ugly Chic"
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 2,
+  "fields": {
+    "brand": "HERMES",
+    "year": "1999",
+    "season": "Spring-Summer",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_-4X2hN6EceLkeoAqe9b0zIiDXXj0Z6afXP180q2gF3N1fgu0-EaQauCV4OSVGhLPNj4&usqp=CAU",
+    "price": "$ 3000",
+    "description": "Magela's Hermes"
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 3,
+  "fields": {
+    "brand": "HERMES",
+    "year": "1998",
+    "season": "Fall",
+    "image": "https://assets.vogue.com/photos/59946738945b9a72fe3ed815/master/pass/HERMES-FALL-1998-RTW-03-CN10025331.jpg",
+    "price": "$ 4000",
+    "description": "Martin Margiela was a 40-year-old outsider Belgian, known for upcycling, deconstruction, and, most of all, anonymity, when he signed on with the family-owned Hermès."
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 5,
+  "fields": {
+    "brand": "HERMES",
+    "year": "1998",
+    "season": "Fall",
+    "image": "https://assets.vogue.com/photos/59946738945b9a72fe3ed815/master/pass/HERMES-FALL-1998-RTW-03-CN10025331.jpg",
+    "price": "$ 4000",
+    "description": "Martin Margiela was a 40-year-old outsider Belgian, known for upcycling, deconstruction, and, most of all, anonymity, when he signed on with the family-owned Hermès."
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 6,
+  "fields": {
+    "brand": "HERMES",
+    "year": "1998",
+    "season": "Fall",
+    "image": "https://assets.vogue.com/photos/59946738945b9a72fe3ed815/master/pass/HERMES-FALL-1998-RTW-03-CN10025331.jpg",
+    "price": "$ 4500",
+    "description": "Martin Margiela was a 40-year-old outsider Belgian, known for upcycling, deconstruction, and, most of all, anonymity, when he signed on with the family-owned Hermès."
+  }
+},
+{
+  "model": "runaways.comment",
+  "pk": 1,
+  "fields": {
+    "content": "This my fav garment!!",
+    "runaway": 3
+  }
+},
+{
+  "model": "runaways.comment",
+  "pk": 3,
+  "fields": {
+    "content": "My third comment",
+    "runaway": 1
+  }
+},
+{
+  "model": "runaways.comment",
+  "pk": 4,
+  "fields": {
+    "content": "My fav Prada!!",
+    "runaway": 1
+  }
+},
+{
+  "model": "runaways.comment",
+  "pk": 5,
+  "fields": {
+  "content": "J'adore!!",
+  "runaway": 5
+  }
+}
+
+]

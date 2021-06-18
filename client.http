@@ -1,0 +1,132 @@
+# GET ALL RUNAWAYS
+
+GET http://localhost:8000/api/runaways/
+
+###
+
+# GET ONE RUNAWAY
+GET http://localhost:8000/api/runaways/1/
+
+
+###
+
+# CREATE A NEW RUNAWAY
+
+POST http://localhost:8000/api/runaways/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImV4cCI6MTYyNDIwNjcwNn0.2hYbdZBYNCzIp5ki-MDLEu8_Nj06QKQrvubJ8LwmtJk
+
+{
+  "brand": "HERMES",
+  "year": "1998",
+  "season": "Fall",
+  "image": "https://assets.vogue.com/photos/59946738945b9a72fe3ed815/master/pass/HERMES-FALL-1998-RTW-03-CN10025331.jpg",
+  "sale_price": "$ 4000",
+  "rent_price": "$ 20 per day"
+  "description": "Martin Margiela was a 40-year-old outsider Belgian, known for upcycling, deconstruction, and, most of all, anonymity, when he signed on with the family-owned Hermès."
+}
+
+###
+
+# DELETE A SINGLE RUNAWAY
+
+DELETE http://localhost:8000/api/runaways/4/
+###
+
+# UPDATE A SINGLE RUNWAY
+PUT http://localhost:8000/api/runaways/6/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImV4cCI6MTYyNDIxMTIxOH0.oIqRROT_oBO_bfo5Tu2c7Yt9RENniaX79ywKaDeOHr8
+
+{
+  "brand": "HERMES",
+  "year": "1998",
+  "season": "Fall",
+  "image": "https://assets.vogue.com/photos/59946738945b9a72fe3ed815/master/pass/HERMES-FALL-1998-RTW-03-CN10025331.jpg",
+  "sale_price": "$4500",
+  "rent_price": "$20 per day",
+  "description": "Martin Margiela was a 40-year-old outsider Belgian, known for upcycling, deconstruction, and, most of all, anonymity, when he signed on with the family-owned Hermès.",
+  "favoritedBy": [2, 1]
+}
+### Create a comment
+
+POST http://localhost:8000/api/runaways/1/comments/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImV4cCI6MTYyNDIxMTIxOH0.oIqRROT_oBO_bfo5Tu2c7Yt9RENniaX79ywKaDeOHr8
+
+{
+  "content": "My blu comment"
+}
+
+### Delete a comment
+DELETE http://localhost:8000/api/runaways/1/comments/2/
+
+###
+
+# Register a User
+POST http://localhost:8000/api/auth/register/
+Content-Type: application/json
+
+{
+  "username": "giovanni",
+  "email": "gio@email.com",
+  "profileImage": "image_jpg",
+  "password": "pass",
+  "passwordConfirmation": "pass"
+}
+
+###
+
+# Login a User
+POST http://localhost:8000/api/auth/login/
+Content-Type: application/json
+
+{
+  "email": "gio@email.com",
+  "password": "pass"
+}
+
+###
+
+# Favourite a Runaway
+POST http://localhost:8000/api/runaways/1/favorite/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImV4cCI6MTYyNDIxMTIxOH0.oIqRROT_oBO_bfo5Tu2c7Yt9RENniaX79ywKaDeOHr8
+
+
+
+###
+
+# Get User Profile
+GET http://localhost:8000/api/auth/profile/2/
+
+###
+
+#Post rent 
+POST http://localhost:8000/api/runaways/1/rent/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImV4cCI6MTYyNDU1MDMwNX0.jLH5w6WlmPMEI4DGxDPrRLIZ2OdtRL9MbZh3bkj5Ehw
+Content-Type: application/json
+
+{
+  "date_returned": "2021-07-03"
+}
+###
+# Put returned date
+PUT http://localhost:8000/api/runaways/1/return/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImV4cCI6MTYyNDI3MzU5M30.OGN2RPKUxXV9R31YryUMHxNhnrtBkEhyprfEnA7y5xA
+Content-Type: application/json
+
+{
+  "date_rented": "2021-06-14",
+  "date_returned": "2021-06-27",
+  "rented": false,
+  "runaway": 1,
+  "owner": 2
+}
+
+###
+#Purchase a garment 
+POST http://localhost:8000/api/runaways/1/purchase/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImV4cCI6MTYyNDI3MzU5M30.OGN2RPKUxXV9R31YryUMHxNhnrtBkEhyprfEnA7y5xA
+
+
+
