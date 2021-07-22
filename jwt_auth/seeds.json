@@ -1,0 +1,173 @@
+[
+{
+  "model": "jwt_auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$jFyH8FMfCbku3rMn8qxwte$tqqqph/WGT22MElkkEBRBwXPuISc1BXl+ifaLRBMytA=",
+    "last_login": "2021-07-08T13:43:37.783Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-06-13T14:30:36.556Z",
+    "email": "admin@mail.com",
+    "profile_image": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$6eRF2mwqA1hH1Ov3dpDNtj$h3idiCjwziJ1RG4nxoVMJRJH7ctSUuwCUZfkLIZ19+E=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "giovanni",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-06-13T16:14:52.315Z",
+    "email": "gio@email.com",
+    "profile_image": "image_jpg",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$hTlFSmFQIZdW4fGy4OfVwD$cPBrlL4SGycyWw1K0yoraWqN3/2jyyAT+zPZlzUemQk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "3",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-06-15T16:36:01.472Z",
+    "email": "3@mail.com",
+    "profile_image": "image.jpg",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$9vySQPmyqJ7h4ssljQeDrs$sP83JCIIEXy7y4Zc6XKOIKdwzrwFgGJTS4/6I/ZZaj0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "y",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-06-15T16:39:03.548Z",
+    "email": "y@mail.com",
+    "profile_image": "image.jpg",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$LXfKx3tYzrMmbM88lNjTcN$7BoZU0K9JpnBgwWgF/6QV39aQi8O58YKXm8BidGerug=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "w",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-06-21T07:40:34.688Z",
+    "email": "w@mail.com",
+    "profile_image": "image.jpg",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$NPFyf3aUMrmRVByn3Hx8Rt$BND2cZA2msLFUfkneoYeGcUtlOErfXHE/wHSotGLSfI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "4",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-06-21T07:42:54.273Z",
+    "email": "4@mail.com",
+    "profile_image": "image.jpg",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$bafQe4CVYQsiuDALfUcm5L$SzsHszeDRh3xz2jN6drXJQhtafZ2KJPyEWFLT4K+nOM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "s",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-07-08T13:55:04.506Z",
+    "email": "s@mail.com",
+    "profile_image": "image.jpg",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$cike0oZeHWe4wH0bh7ecDD$bJWEeGI/XBO43FEDd2wbOZRPpt7jDuS/d4A3j+KalQg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "luna",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-07-21T09:00:07.869Z",
+    "email": "luna@mail.com",
+    "profile_image": "image.jpg",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$T48gQXzSsNAhG9WAAdTZSK$XR6ypc4lIyKX7lH3omYDfrmO4T6hLmyDTMu8TteCo08=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "diletta",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-07-22T09:21:58.973Z",
+    "email": "diletta@mail.com",
+    "profile_image": "image.jpg",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

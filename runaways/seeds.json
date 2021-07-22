@@ -7,8 +7,12 @@
     "year": "1996",
     "season": "Spring-Summer",
     "image": "https://i.pinimg.com/originals/1b/2a/f9/1b2af98dcb5eb69487aa3a1349170b55.jpg",
-    "price": "$ 3000",
-    "description": "Prada's Ugly Chic"
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Prada's Ugly Chic",
+    "favorited_by": [
+      2
+    ]
   }
 },
 {
@@ -19,8 +23,10 @@
     "year": "1999",
     "season": "Spring-Summer",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_-4X2hN6EceLkeoAqe9b0zIiDXXj0Z6afXP180q2gF3N1fgu0-EaQauCV4OSVGhLPNj4&usqp=CAU",
-    "price": "$ 3000",
-    "description": "Magela's Hermes"
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Magela's Hermes",
+    "favorited_by": []
   }
 },
 {
@@ -31,8 +37,10 @@
     "year": "1998",
     "season": "Fall",
     "image": "https://assets.vogue.com/photos/59946738945b9a72fe3ed815/master/pass/HERMES-FALL-1998-RTW-03-CN10025331.jpg",
-    "price": "$ 4000",
-    "description": "Martin Margiela was a 40-year-old outsider Belgian, known for upcycling, deconstruction, and, most of all, anonymity, when he signed on with the family-owned Hermès."
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Martin Margiela was a 40-year-old outsider Belgian, known for upcycling, deconstruction, and, most of all, anonymity, when he signed on with the family-owned Hermès.",
+    "favorited_by": []
   }
 },
 {
@@ -43,8 +51,10 @@
     "year": "1998",
     "season": "Fall",
     "image": "https://assets.vogue.com/photos/59946738945b9a72fe3ed815/master/pass/HERMES-FALL-1998-RTW-03-CN10025331.jpg",
-    "price": "$ 4000",
-    "description": "Martin Margiela was a 40-year-old outsider Belgian, known for upcycling, deconstruction, and, most of all, anonymity, when he signed on with the family-owned Hermès."
+    "sale_price": "sale_price: 3000",
+    "rent_price": "rent_price: $20 per day",
+    "description": "Martin Margiela was a 40-year-old outsider Belgian, known for upcycling, deconstruction, and, most of all, anonymity, when he signed on with the family-owned Hermès.",
+    "favorited_by": []
   }
 },
 {
@@ -55,8 +65,793 @@
     "year": "1998",
     "season": "Fall",
     "image": "https://assets.vogue.com/photos/59946738945b9a72fe3ed815/master/pass/HERMES-FALL-1998-RTW-03-CN10025331.jpg",
-    "price": "$ 4500",
-    "description": "Martin Margiela was a 40-year-old outsider Belgian, known for upcycling, deconstruction, and, most of all, anonymity, when he signed on with the family-owned Hermès."
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Martin Margiela was a 40-year-old outsider Belgian, known for upcycling, deconstruction, and, most of all, anonymity, when he signed on with the family-owned Hermès.",
+    "favorited_by": [
+      2,
+      1
+    ]
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 7,
+  "fields": {
+    "brand": "HERMES",
+    "year": "1998",
+    "season": "Fall",
+    "image": "https://assets.vogue.com/photos/59946738945b9a72fe3ed815/master/pass/HERMES-FALL-1998-RTW-03-CN10025331.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Martin Margiela was a 40-year-old outsider Belgian, known for upcycling, deconstruction, and, most of all, anonymity, when he signed on with the family-owned Hermès.",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 8,
+  "fields": {
+    "brand": "HERMES",
+    "year": "1998",
+    "season": "Fall",
+    "image": "https://assets.vogue.com/photos/59946738945b9a72fe3ed815/master/pass/HERMES-FALL-1998-RTW-03-CN10025331.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Martin Margiela was a 40-year-old outsider Belgian, known for upcycling, deconstruction, and, most of all, anonymity, when he signed on with the family-owned Hermès.",
+    "favorited_by": [
+      2
+    ]
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 9,
+  "fields": {
+    "brand": "PRADA",
+    "year": "1996",
+    "season": "Spring-Summer",
+    "image": "https://leahhughesfashion.files.wordpress.com/2018/10/prada-spring-1996-rtw-22-esther-de-jong.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "The classic Prada ugly chic",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 10,
+  "fields": {
+    "brand": "PRADA",
+    "year": "1996",
+    "season": "Spring-Summer",
+    "image": "https://i.pinimg.com/originals/46/e0/ff/46e0ffab2d8dbdb2ff14f6ac36fc9649.jpg",
+    "sale_price": "$4000",
+    "rent_price": "$20 per day",
+    "description": "The Prada Ugly chic",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 11,
+  "fields": {
+    "brand": "PRADA",
+    "year": "1996",
+    "season": "Spring-Summer",
+    "image": "https://i.pinimg.com/originals/d6/e8/16/d6e8164fe77f53677efe1c4317ba7eef.jpg",
+    "sale_price": "$4000",
+    "rent_price": "$20 per day",
+    "description": "Prada ugly chic style",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 12,
+  "fields": {
+    "brand": "PRADA",
+    "year": "1996",
+    "season": "Spring-Summer",
+    "image": "https://i.pinimg.com/originals/23/4d/f9/234df99465e407abcbf55de9402c98bf.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "The iconic show",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 13,
+  "fields": {
+    "brand": "PRADA",
+    "year": "1996",
+    "season": "Spring-Summer",
+    "image": "https://anotherimg-dazedgroup.netdna-ssl.com/960/azure/another-prod/360/5/365100.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "The iconic style",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 14,
+  "fields": {
+    "brand": "PRADA",
+    "year": "1996",
+    "season": "Spring-Summer",
+    "image": "https://www.prada.com/content/dam/pradanux/pradasphere/1996/fashion-show/ss-woman/look/dt/001.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "The iconic catwalk",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 15,
+  "fields": {
+    "brand": "PRADA",
+    "year": "1996",
+    "season": "Spring-Summer",
+    "image": "https://www.prada.com/content/dam/pradanux/pradasphere/1996/fashion-show/ss-woman/look/dt/006.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "The iconic style",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 16,
+  "fields": {
+    "brand": "PRADA",
+    "year": "1996",
+    "season": "Spring-Summer",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6EYbJlX7lwYCRbX8tBd14jGZyzETm0O_giEDs9SQhktAYDHryB3HctaUaMnmmMVA-wyo&usqp=CAU",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "The radical chic",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 17,
+  "fields": {
+    "brand": "PRADA",
+    "year": "1996",
+    "season": "Spring-Summer",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdswt2g4kzYdXCFRPNS0drtPn6uGYxmncXfw&usqp=CAU",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "The 90's are back",
+    "favorited_by": [
+      5
+    ]
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 18,
+  "fields": {
+    "brand": "PRADA",
+    "year": "1996",
+    "season": "Spring-Summer",
+    "image": "https://assets.vogue.com/photos/55d9d009c2ab1c812a346dd0/master/w_480%2Cc_limit/PRADA-SPRING-1996-RTW-05-GUINEVERE-VAN-SEENUS.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "the radical chic",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 19,
+  "fields": {
+    "brand": "HERMES",
+    "year": "1998",
+    "season": "Fall",
+    "image": "https://i.pinimg.com/originals/01/55/d2/0155d258200306fc9abe45cad863595e.jpg",
+    "sale_price": "$5000",
+    "rent_price": "$20 per day",
+    "description": "Margela Hermes",
+    "favorited_by": [
+      5
+    ]
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 20,
+  "fields": {
+    "brand": "HERMES",
+    "year": "1998",
+    "season": "Fall",
+    "image": "https://assets.vogue.com/photos/5994673507a5d91d83ac41c4/master/w_480%2Cc_limit/HERMES-FALL-1998-RTW-33-CN10025328.jpg",
+    "sale_price": "$5000",
+    "rent_price": "$20 per day",
+    "description": "Hermes Margela",
+    "favorited_by": [
+      5
+    ]
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 21,
+  "fields": {
+    "brand": "HERMES",
+    "year": "1998",
+    "season": "Fall",
+    "image": "https://i.pinimg.com/originals/45/39/b6/4539b60cb4e621962cea0683fc17d6a5.jpg",
+    "sale_price": "$4000",
+    "rent_price": "$20 per day",
+    "description": "Hermes Margela",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 22,
+  "fields": {
+    "brand": "HERMES",
+    "year": "1998",
+    "season": "Fall",
+    "image": "https://media.vogue-fashion-shows.com/photos/5c18e21a941c7e4ead3ce5f6/master/w_760,c_limit/HERMES-FALL-1998-RTW-18-CN10025311.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "Margela Hermes",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 23,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2000",
+    "season": "Spring-Summer",
+    "image": "https://i.pinimg.com/originals/5a/2d/cb/5a2dcb2460b014011f53cc4a04af1dc6.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Prada Miuccia Ugly chic style",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 24,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2000",
+    "season": "Spring-Summer",
+    "image": "https://assets.vogue.com/photos/55c6514e08298d8be21f2ef1/master/pass/100009026.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "Prada iconic 90's style",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 25,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2000",
+    "season": "Spring-Summer",
+    "image": "https://mygoddesscomplex.files.wordpress.com/2017/09/prada-2.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Prada Ugly chic",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 26,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2000",
+    "season": "Spring-Summer",
+    "image": "https://assets.vogue.com/photos/55c6514e08298d8be21f2ee6/2:3/w_480%2Cc_limit/100009014.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "Prada Ugly chic",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 27,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2000",
+    "season": "Spring-Summer",
+    "image": "https://assets.vogue.com/photos/55c6514e08298d8be21f2ee8/master/w_480%2Cc_limit/100009017.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "Prada Iconic style",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 28,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2000",
+    "season": "Spring-Summer",
+    "image": "https://www.bellazon.com/main/uploads/monthly_04_2011/post-19430-1302442962.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "Prada Iconic Style",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 29,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2000",
+    "season": "Spring-Summer",
+    "image": "https://assets.vogue.com/photos/55c6514e08298d8be21f2ee9/master/w_480%2Cc_limit/100009018.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Prada",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 30,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2000",
+    "season": "Spring-Summer",
+    "image": "https://assets.vogue.com/photos/55c6514e08298d8be21f2ee7/master/w_480%2Cc_limit/100009016.jpg",
+    "sale_price": "$4000",
+    "rent_price": "$20 per day",
+    "description": "Prada",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 31,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2000",
+    "season": "Spring-Summer",
+    "image": "https://assets.vogue.com/photos/55c6514e08298d8be21f2ee7/master/w_480%2Cc_limit/100009016.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Prada",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 32,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2000",
+    "season": "Spring-Summer",
+    "image": "https://assets.vogue.com/photos/55c6514e08298d8be21f2eec/master/w_480%2Cc_limit/100009021.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "Prada Ugly chic",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 33,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2000",
+    "season": "Spring-Summer",
+    "image": "https://assets.vogue.com/photos/55c6514e08298d8be21f2eeb/master/w_480%2Cc_limit/100009020.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Prada Ugly chic",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 34,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2000",
+    "season": "Spring-Summer",
+    "image": "https://assets.vogue.com/photos/55c6514e08298d8be21f2eeb/master/w_480%2Cc_limit/100009020.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "Prada Ugly chic",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 35,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2001",
+    "season": "Spring-Summer",
+    "image": "https://i.pinimg.com/originals/e8/80/0c/e8800c8a068673e78207f750bb77fa7d.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Prada iconic style",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 36,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2001",
+    "season": "Spring-Summer",
+    "image": "https://i.pinimg.com/236x/58/80/2c/58802c5a0de99adb999bd6f13fc6f72e--prada-spring-dune.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Prada Ugly chic",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 37,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2001",
+    "season": "Spring-Summer",
+    "image": "https://assets.vogue.com/photos/55c6515408298d8be21f9c83/master/w_480%2Cc_limit/100015547.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "Parda Ugly chic",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 38,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2001",
+    "season": "Spring-Summer",
+    "image": "https://i.pinimg.com/originals/b2/e8/68/b2e868b8c0f36910ad5d2a75a720c7cd.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "Prada Ugly chic",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 39,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2001",
+    "season": "Spring-Summer",
+    "image": "https://i.pinimg.com/originals/d4/4a/57/d44a5703c8789a5626c2b53b5e65ced2.jpg",
+    "sale_price": "$4000",
+    "rent_price": "$20 per day",
+    "description": "Prada most iconic runway",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 40,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2001",
+    "season": "Spring-Summer",
+    "image": "https://www1.pictures.livingly.com/it/Prada+Spring+2001+EjzhUJo765vx.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "Prada iconic style",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 41,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2001",
+    "season": "Spring-Summer",
+    "image": "https://64.media.tumblr.com/5e22ca80ecd86207fb11bb12c794c73a/tumblr_o5tdd2jjoP1tdlbsio1_1280.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Prada iconic style",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 42,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2001",
+    "season": "Spring-Summer",
+    "image": "https://i.pinimg.com/originals/df/4f/55/df4f55d651afa6d8e09741ce02d0c2db.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "Prada Iconic style",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 43,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2001",
+    "season": "Spring-Summer",
+    "image": "https://i.pinimg.com/originals/8a/6e/27/8a6e27b10e8c587aeb49a805fb825d9e.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Prada Iconic style",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 44,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2001",
+    "season": "Spring-Summer",
+    "image": "https://assets.vogue.com/photos/55c6515408298d8be21f9c88/master/w_480%2Cc_limit/100015553.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Prada iconic style",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 45,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2001",
+    "season": "Spring-Summer",
+    "image": "https://i.pinimg.com/originals/fb/c7/68/fbc768349d70094098980a11c8453e09.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Prada Ugly style",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 46,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2001",
+    "season": "Spring-Summer",
+    "image": "https://www4.pictures.livingly.com/it/Prada+Spring+2001+S19ff0PL9tPl.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "Prada Ugly chic",
+    "favorited_by": [
+      4
+    ]
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 47,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2001",
+    "season": "Spring-Summer",
+    "image": "https://i.pinimg.com/originals/b5/da/c1/b5dac113ccc16836a906441d4be2a361.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Prada Ugly chic",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 48,
+  "fields": {
+    "brand": "PRADA",
+    "year": "2001",
+    "season": "Spring-Summer",
+    "image": "https://i.pinimg.com/originals/58/f4/b3/58f4b33cad590c13862fe0c479a91c84.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "Prada Iconic style",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 49,
+  "fields": {
+    "brand": "GIORGIO ARMANI",
+    "year": "2000",
+    "season": "Fall",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDLdlb_HWr-1dLJeqHLQZ77xH0iC7hrzesW7Tm46pktKgEiNqS4qW397BgsdInTHcflts&usqp=CAU",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Giorgio Armani timeless style",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 50,
+  "fields": {
+    "brand": "GIORGIO ARMANI",
+    "year": "2000",
+    "season": "Fall",
+    "image": "https://assets.vogue.com/photos/55c6515208298d8be21f6aae/master/w_480%2Cc_limit/100001978.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "Giorgio Armani",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 51,
+  "fields": {
+    "brand": "GIORGIO ARMANI",
+    "year": "2000",
+    "season": "Fall",
+    "image": "https://i.pinimg.com/originals/df/78/a2/df78a20f2ec055d36c4517de5d47cf49.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Giorgio Armani",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 52,
+  "fields": {
+    "brand": "GIORGIO ARMANI",
+    "year": "2000",
+    "season": "Fall",
+    "image": "https://i.pinimg.com/474x/cd/2f/88/cd2f8805973891ca4a4a329665b188ef.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "Giorgio Armani",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 53,
+  "fields": {
+    "brand": "GIORGIO ARMANI",
+    "year": "2000",
+    "season": "Fall",
+    "image": "https://i.pinimg.com/474x/78/de/73/78de73dfb9d911062874ae64dbe937d0.jpg",
+    "sale_price": "$4000",
+    "rent_price": "$20 per day",
+    "description": "Armani",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 54,
+  "fields": {
+    "brand": "GIORGIO ARMANI",
+    "year": "2000",
+    "season": "Fall",
+    "image": "https://assets.vogue.com/photos/55c6515208298d8be21f6ab1/master/w_480%2Cc_limit/100001981.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "Giorgio Armani",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 55,
+  "fields": {
+    "brand": "GIORGIO ARMANI",
+    "year": "2000",
+    "season": "Fall",
+    "image": "https://i.pinimg.com/originals/4b/a3/ef/4ba3ef52284b64f2f8fbd747b13de062.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "Giorgio Armani",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 56,
+  "fields": {
+    "brand": "GIORGIO ARMANI",
+    "year": "2000",
+    "season": "Fall",
+    "image": "https://i.pinimg.com/originals/7d/01/2a/7d012ad475b218a822aff07049bbf444.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Giorgio Armani",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 57,
+  "fields": {
+    "brand": "GIORGIO ARMANI",
+    "year": "2000",
+    "season": "Fall",
+    "image": "https://i.pinimg.com/originals/31/06/b4/3106b46af04faca525b28735b28f9ec2.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Giorgio Armani",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 58,
+  "fields": {
+    "brand": "GIORGIO ARMANI",
+    "year": "2000",
+    "season": "Fall",
+    "image": "https://assets.vogue.com/photos/55c6515208298d8be21f6ab4/master/w_480%2Cc_limit/100001984.jpg",
+    "sale_price": "$3000",
+    "rent_price": "$20 per day",
+    "description": "Giorgio Armani",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 59,
+  "fields": {
+    "brand": "GIORGIO ARMANI",
+    "year": "2000",
+    "season": "Fall",
+    "image": "https://assets.vogue.com/photos/55c6515208298d8be21f68e1/master/w_480%2Cc_limit/100001717.jpg",
+    "sale_price": "$4000",
+    "rent_price": "$20 per day",
+    "description": "Giorgio Armani",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 60,
+  "fields": {
+    "brand": "GIORGIO ARMANI",
+    "year": "2000",
+    "season": "Fall",
+    "image": "https://assets.vogue.com/photos/55c6515208298d8be21f68dd/master/w_480%2Cc_limit/100001713.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "Giorgio Armani",
+    "favorited_by": []
+  }
+},
+{
+  "model": "runaways.runaway",
+  "pk": 61,
+  "fields": {
+    "brand": "GIORGIO ARMANI",
+    "year": "2000",
+    "season": "Fall",
+    "image": "https://i.pinimg.com/originals/d3/20/e1/d320e12f2e7c043fa4f2adcf0b716659.jpg",
+    "sale_price": "$2000",
+    "rent_price": "$20 per day",
+    "description": "Giorgio Armani",
+    "favorited_by": []
   }
 },
 {
@@ -64,7 +859,8 @@
   "pk": 1,
   "fields": {
     "content": "This my fav garment!!",
-    "runaway": 3
+    "runaway": 3,
+    "owner": 1
   }
 },
 {
@@ -72,7 +868,8 @@
   "pk": 3,
   "fields": {
     "content": "My third comment",
-    "runaway": 1
+    "runaway": 1,
+    "owner": 1
   }
 },
 {
@@ -80,16 +877,350 @@
   "pk": 4,
   "fields": {
     "content": "My fav Prada!!",
-    "runaway": 1
+    "runaway": 1,
+    "owner": 1
   }
 },
 {
   "model": "runaways.comment",
   "pk": 5,
   "fields": {
-  "content": "J'adore!!",
-  "runaway": 5
+    "content": "J'adore!!",
+    "runaway": 5,
+    "owner": 1
+  }
+},
+{
+  "model": "runaways.comment",
+  "pk": 6,
+  "fields": {
+    "content": "My fav comment",
+    "runaway": 1,
+    "owner": 2
+  }
+},
+{
+  "model": "runaways.comment",
+  "pk": 7,
+  "fields": {
+    "content": "My blu comment",
+    "runaway": 1,
+    "owner": 2
+  }
+},
+{
+  "model": "runaways.comment",
+  "pk": 8,
+  "fields": {
+    "content": "My blu comment",
+    "runaway": 1,
+    "owner": 2
+  }
+},
+{
+  "model": "runaways.rental",
+  "pk": 1,
+  "fields": {
+    "date_rented": "2021-06-14",
+    "date_returned": "2021-06-27",
+    "rented": false,
+    "runaway": 1,
+    "owner": 2
+  }
+},
+{
+  "model": "runaways.rental",
+  "pk": 2,
+  "fields": {
+    "date_rented": "2021-06-14",
+    "date_returned": "2021-06-27",
+    "rented": false,
+    "runaway": 1,
+    "owner": 2
+  }
+},
+{
+  "model": "runaways.rental",
+  "pk": 3,
+  "fields": {
+    "date_rented": "2021-06-14",
+    "date_returned": null,
+    "rented": true,
+    "runaway": 1,
+    "owner": 2
+  }
+},
+{
+  "model": "runaways.rental",
+  "pk": 4,
+  "fields": {
+    "date_rented": "2021-06-14",
+    "date_returned": null,
+    "rented": true,
+    "runaway": 1,
+    "owner": 2
+  }
+},
+{
+  "model": "runaways.rental",
+  "pk": 5,
+  "fields": {
+    "date_rented": "2021-06-17",
+    "date_returned": "2021-06-07",
+    "rented": false,
+    "runaway": 21,
+    "owner": 4
+  }
+},
+{
+  "model": "runaways.rental",
+  "pk": 6,
+  "fields": {
+    "date_rented": "2021-06-17",
+    "date_returned": "2021-07-03",
+    "rented": true,
+    "runaway": 1,
+    "owner": 2
+  }
+},
+{
+  "model": "runaways.rental",
+  "pk": 7,
+  "fields": {
+    "date_rented": "2021-06-17",
+    "date_returned": "2021-06-18",
+    "rented": true,
+    "runaway": 5,
+    "owner": 4
+  }
+},
+{
+  "model": "runaways.rental",
+  "pk": 8,
+  "fields": {
+    "date_rented": "2021-06-17",
+    "date_returned": "2021-06-18",
+    "rented": true,
+    "runaway": 5,
+    "owner": 4
+  }
+},
+{
+  "model": "runaways.rental",
+  "pk": 9,
+  "fields": {
+    "date_rented": "2021-06-17",
+    "date_returned": "2021-06-18",
+    "rented": true,
+    "runaway": 15,
+    "owner": 4
+  }
+},
+{
+  "model": "runaways.rental",
+  "pk": 10,
+  "fields": {
+    "date_rented": "2021-06-17",
+    "date_returned": "2021-06-27",
+    "rented": true,
+    "runaway": 15,
+    "owner": 4
+  }
+},
+{
+  "model": "runaways.rental",
+  "pk": 11,
+  "fields": {
+    "date_rented": "2021-06-17",
+    "date_returned": "2021-06-25",
+    "rented": true,
+    "runaway": 18,
+    "owner": 4
+  }
+},
+{
+  "model": "runaways.rental",
+  "pk": 12,
+  "fields": {
+    "date_rented": "2021-06-17",
+    "date_returned": "2021-06-30",
+    "rented": true,
+    "runaway": 52,
+    "owner": 4
+  }
+},
+{
+  "model": "runaways.rental",
+  "pk": 13,
+  "fields": {
+    "date_rented": "2021-06-18",
+    "date_returned": "2021-06-19",
+    "rented": true,
+    "runaway": 5,
+    "owner": 4
+  }
+},
+{
+  "model": "runaways.rental",
+  "pk": 14,
+  "fields": {
+    "date_rented": "2021-06-18",
+    "date_returned": "2021-06-21",
+    "rented": true,
+    "runaway": 21,
+    "owner": 4
+  }
+},
+{
+  "model": "runaways.rental",
+  "pk": 15,
+  "fields": {
+    "date_rented": "2021-06-18",
+    "date_returned": "2021-06-19",
+    "rented": true,
+    "runaway": 16,
+    "owner": 4
+  }
+},
+{
+  "model": "runaways.rental",
+  "pk": 16,
+  "fields": {
+    "date_rented": "2021-06-21",
+    "date_returned": "2021-06-23",
+    "rented": true,
+    "runaway": 17,
+    "owner": 6
+  }
+},
+{
+  "model": "runaways.rental",
+  "pk": 17,
+  "fields": {
+    "date_rented": "2021-06-21",
+    "date_returned": "2021-06-23",
+    "rented": true,
+    "runaway": 17,
+    "owner": 5
+  }
+},
+{
+  "model": "runaways.rental",
+  "pk": 18,
+  "fields": {
+    "date_rented": "2021-06-22",
+    "date_returned": "2021-06-25",
+    "rented": true,
+    "runaway": 16,
+    "owner": 5
+  }
+},
+{
+  "model": "runaways.purchase",
+  "pk": 1,
+  "fields": {
+    "date_purchased": "2021-06-14",
+    "runaway": 1,
+    "owner": 2
+  }
+},
+{
+  "model": "runaways.purchase",
+  "pk": 2,
+  "fields": {
+    "date_purchased": "2021-06-17",
+    "runaway": 15,
+    "owner": 4
+  }
+},
+{
+  "model": "runaways.purchase",
+  "pk": 3,
+  "fields": {
+    "date_purchased": "2021-06-18",
+    "runaway": 19,
+    "owner": 4
+  }
+},
+{
+  "model": "runaways.purchase",
+  "pk": 4,
+  "fields": {
+    "date_purchased": "2021-06-18",
+    "runaway": 51,
+    "owner": 4
+  }
+},
+{
+  "model": "runaways.purchase",
+  "pk": 5,
+  "fields": {
+    "date_purchased": "2021-06-18",
+    "runaway": 5,
+    "owner": 4
+  }
+},
+{
+  "model": "runaways.purchase",
+  "pk": 6,
+  "fields": {
+    "date_purchased": "2021-06-18",
+    "runaway": 21,
+    "owner": 4
+  }
+},
+{
+  "model": "runaways.purchase",
+  "pk": 7,
+  "fields": {
+    "date_purchased": "2021-06-18",
+    "runaway": 15,
+    "owner": 4
+  }
+},
+{
+  "model": "runaways.purchase",
+  "pk": 8,
+  "fields": {
+    "date_purchased": "2021-06-18",
+    "runaway": 53,
+    "owner": 4
+  }
+},
+{
+  "model": "runaways.purchase",
+  "pk": 9,
+  "fields": {
+    "date_purchased": "2021-06-21",
+    "runaway": 18,
+    "owner": 5
+  }
+},
+{
+  "model": "runaways.purchase",
+  "pk": 10,
+  "fields": {
+    "date_purchased": "2021-06-21",
+    "runaway": 15,
+    "owner": 5
+  }
+},
+{
+  "model": "runaways.purchase",
+  "pk": 11,
+  "fields": {
+    "date_purchased": "2021-06-21",
+    "runaway": 17,
+    "owner": 5
+  }
+},
+{
+  "model": "runaways.purchase",
+  "pk": 12,
+  "fields": {
+    "date_purchased": "2021-06-22",
+    "runaway": 17,
+    "owner": 5
   }
 }
-
 ]
