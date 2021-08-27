@@ -14,7 +14,7 @@ GET http://localhost:8000/api/runaways/1/
 
 POST http://localhost:8000/api/runaways/
 Content-Type: application/json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImV4cCI6MTYyNDIwNjcwNn0.2hYbdZBYNCzIp5ki-MDLEu8_Nj06QKQrvubJ8LwmtJk
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImV4cCI6MTYzMDY2NDAxMX0.T5CLfafyZzBJDNh7hAJQyovS7EXl2Q_vDEVb4hpEWBM
 
 {
   "brand": "HERMES",
@@ -22,7 +22,7 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImV4cCI6M
   "season": "Fall",
   "image": "https://assets.vogue.com/photos/59946738945b9a72fe3ed815/master/pass/HERMES-FALL-1998-RTW-03-CN10025331.jpg",
   "sale_price": "$ 4000",
-  "rent_price": "$ 20 per day"
+  "rent_price": "$ 20 per day",
   "description": "Martin Margiela was a 40-year-old outsider Belgian, known for upcycling, deconstruction, and, most of all, anonymity, when he signed on with the family-owned Hermès."
 }
 
@@ -84,8 +84,8 @@ Content-Type: application/json
   "password": "pass"
 }
 
+###  Login a User
 
-# Login a User
 POST http://localhost:8000/api/auth/login/
 Content-Type: application/json
 
